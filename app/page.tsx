@@ -19,7 +19,9 @@ export default function LandingPage() {
           <div className="text-center text-white">
             <h1 className="text-5xl font-bold mb-4">Future Founders Launchpad 2025</h1>
             <p className="text-xl mb-8">Small title</p>
-            <Button className="bg-[#2529ff] text-white hover:bg-[#2529ff]/90">Apply Now</Button>
+            <Link href="/apply">
+              <Button className="bg-[#2529ff] text-white hover:bg-[#2529ff]/90">Apply Now</Button>
+            </Link>
           </div>
         </div>
       </section>
